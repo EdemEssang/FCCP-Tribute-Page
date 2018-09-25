@@ -1,0 +1,150 @@
+body {
+ 
+    font-family: Quicksand;
+    font-size: 1.1em;
+
+     background-color: #5D2C04;
+
+}
+
+main {
+
+ background-color: #82EDFD;
+    padding: 20px 80px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+#survey-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+            "name-label name"
+            "email-label email"
+            "number-label number"
+            "dropdown-label dropdown"
+            "radio-group-label radio-group"
+            "choice-dropdown-label choice-dropdown"
+            "checkbox-group-label checkbox-group"
+            "comment-label commnt"
+            "submit submit";
+    grid-gap: 20px;
+}
+#title {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#description {
+    text-align: center;
+}
+
+#name-label {
+    grid-area:name-label;
+}
+
+#name {
+    grid-area: name;
+    height: 1.6em;
+}
+
+#email-label {
+    grid-area: email-label;
+
+}
+
+#email {
+    grid-area: email;
+    height: 1.6em;
+}
+
+#number-label {
+    grid-area: number-label;
+
+}
+
+#number {
+    grid-area: number;
+    height: 1.6em;
+}
+
+#dropdown-label {
+    grid-area: dropdown-label;
+
+}
+
+#dropdown {
+    grid-area: dropdown;
+    height: 35px;
+    width: 140px;
+}
+
+#radio-group-label {
+    grid-area: radio-group-label;
+
+}
+
+#radio-group {
+    grid-area: radio-group;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.7em;
+
+}
+
+#choice-dropdown-label {
+    grid-area: choice-dropdown-label;
+
+}
+
+#choice-dropdown {
+    grid-area: choice-dropdown;
+    height: 35px;
+    width: 140px;
+}
+
+#checkbox-group-label {
+    grid-area: checkbox-group-label;
+}
+
+#checkbox-group {
+    grid-area: checkbox-group;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.7em;
+}
+
+#comment-label {
+    grid-area: comment-label;
+}
+
+#commnt {
+    grid-area: commnt;
+    height: 50px;
+    resize: none;
+}
+
+#submit {
+    grid-area: submit;
+   
+     background-color: #5D2C04;
+  
+    border: none;
+    border-radius: 4px;
+    color: #FAFAFA;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+
+.position {
+    text-align: right;
