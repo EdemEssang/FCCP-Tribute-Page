@@ -1,2 +1,3 @@
 # FCCP-Tribute-Page
-A tribute page completed as one of free code camp projects
+A web tribute page completed as one of free code camp projects
+This was achieved through the use of html and css only
